@@ -67,7 +67,7 @@ const Booking = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5001/api/bookings",
+        "https://hotel-back-6.onrender.com/api/bookings",
         {
           guestName,
           phone,
