@@ -17,7 +17,7 @@ const Register = () => {
     setErrorMessage("");
 
     try {
-      const response = await axios.post("http://localhost:5001/api/register", {
+      const response = await axios.post("https://hotel-back-6.onrender.com/api/register", {
         name,
         email,
         password,
