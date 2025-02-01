@@ -14,7 +14,7 @@ const Login = () => {
     setErrorMessage("");
 
     try {
-      const response = await axios.post("http://localhost:5001/api/login", { email, password });
+      const response = await axios.post("https://hotel-back-6.onrender.com/api/login", { email, password });
 
       if (response.status === 200) {
         // Save token in localStorage
